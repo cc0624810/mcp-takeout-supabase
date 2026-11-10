@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/deno.json",
+  "imports": {},
+  "tasks": {
+    "serve": "deno run --allow-net --allow-env supabase/functions/mcp-takeout/index.ts"
+  }
+}
